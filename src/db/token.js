@@ -13,3 +13,4 @@ export default class TokenStorage {
     localStorage.clear(TOKEN);
   }
 }
+
