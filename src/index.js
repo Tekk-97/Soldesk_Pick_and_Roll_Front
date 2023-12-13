@@ -11,7 +11,7 @@ import HttpClient from './network/http';
 import TokenStorage from './db/token';
 import Socket from './network/socket';
 
-const baseURL = "http://pick-roll.xyz";
+const baseURL = "http://www.pick-roll.xyz";
 const tokenStorage = new TokenStorage();
 const httpClient = new HttpClient(baseURL);
 const authErrorEventBus = new AuthErrorEventBus();
