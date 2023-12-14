@@ -27,7 +27,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: lundaljung/soldesk_pick_and_roll_front:latest
+        tags: tekk42/soldesk_pick_and_roll_front:latest
         cache-from: type=gha # gha 는 Guthub Actions 용 캐시
         cache-to: type=gha,mode=max
     
